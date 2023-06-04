@@ -1,0 +1,385 @@
+/*Gilroy-medium*/
+@font-face {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: medium;
+    src: local(''),
+         url('../fonts/Gilroy-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Gilroy-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* Gilroy-bold */
+  @font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+        url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+  }
+
+  html{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gilroy-Medium','Gilroy',Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  *,*::before,*::after{
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+
+  .img{
+    width:100%;
+    height: auto;
+  }
+
+  a:hover{
+    opacity: 0.5;
+  }
+  section{
+    height: auto;
+  }
+
+/*  Header start*/
+
+.header-wrapper{
+    max-width: 944px;
+    margin: 0 auto;
+}
+.header-nav{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #828282;
+    
+}
+.header-nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+.header-nav-list{
+    padding: 32px 0;
+}
+
+.header-nav-link{
+    font-style: normal;
+    font-weight: bold;
+    Font-size: 18px;
+    Line-height: 100%;
+    color: #828282;
+    text-decoration: none;
+}
+
+.header-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 50px;
+    width:100%;
+    padding: 0 15px;
+    
+}
+.header-title{
+    font-weight: bold;
+    Font-size: 47.34px;
+    Line-height: 100%;
+    color:#070707;
+    width: 90px;
+}
+.header-desc-title{
+    width:156px;    
+    height: 44px;
+    Font-size: 18px;
+    line-height: 21.83px;
+    
+}
+.header-text-pic{
+    width: 20px;
+    height: 65px;
+}
+/*.header-text::after{
+    content:url(../images/languages.png);
+    width: 20px;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+    right:-374px  ;
+    
+} . */ 
+
+.header-picture{
+    width:100%;
+    margin-bottom: 104px;
+}
+.header-picture-back{
+    width:100%;
+}
+
+/*  Header end  */
+
+
+
+/*  About me start */
+
+.about-me{
+    background-color: #F6F6F6;
+    min-height: 506px;
+
+}
+ .about-text{
+    padding-top:120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .about-title{
+    Font-size: 34px;
+    Line-height: 100%;
+    font-weight: bold;
+    margin-bottom: 18px;
+ }
+
+ .about-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    text-align: center;
+    width:483px;
+    height: 210px;
+ }
+.about-desc-item{
+    font-weight:400;
+    Font-size: 18px;
+    Line-height: 100%;
+}
+/*  About me end */
+
+/*  Skills start */
+.wrapper{
+    max-width:936px;
+    margin: 0 auto;
+}
+
+.title-all{
+    Font-size: 34px;
+    Line-height: 100%;
+    font-weight: bold;
+}
+
+.skills-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.skills-title{
+    margin-top: 91px;
+    margin-bottom: 69px;
+}
+
+.skills-text{
+    margin-bottom: 84px;
+    font-weight:400;
+    Font-size: 18px;
+    Line-height: 100%;
+
+}
+
+.skills-icons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+.skills-pic{
+    margin: 0 10px 25px 10px;
+    
+    
+}
+/*  Skills  end */
+
+/*  Portfolio  start */
+.portfolio{
+    background-color: #F6F6F6;
+    
+}
+
+.container-portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-title {
+    margin-top: 113px;
+    margin-bottom: 46px;
+
+}
+
+.portfolio-link{
+    margin-top: 45px;
+    font-weight:400;
+    Font-size: 18px;
+    Line-height: 100%;
+    margin-bottom: 99px;
+    color:#070707;
+}
+.portfolio-pic{
+    width:100%;
+}
+
+/*  Portfolio  end */
+
+/* Contacts  start */
+.container-contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:342px;
+    margin: 0 auto;
+}
+.contacts-title{
+    margin-top: 114px;
+    margin-bottom: 20px;
+}
+.contacts-desc{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contacts-button{
+    padding:13px  30px;
+    background-color: black;
+    color:white;
+    font-weight:400;
+    Font-size: 18px;
+    Line-height: 100%;
+    border-radius: 50px;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+}
+.contacts-social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 46px;
+}
+.contacts-link-desc{
+    font-weight:400;
+    Font-size: 14px;
+    color:#828282;
+    margin-bottom: 113px;
+}
+/* Contacts  end */
+
+/*  Media unit */
+
+@media screen and (max-width: 500px){
+    /*  Header start*/
+
+    
+    .header-nav{
+        display: none;
+    }
+    .header-text{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+    .header-title{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        
+    }
+
+    .header-text-pic{
+        display: none;
+    }
+    .header-picture{
+        padding: 0 30px;
+    }
+    
+
+     /*  Header end*/
+
+    /*  About me start*/
+    .about-title{
+        margin-bottom: 30px;
+    }
+
+    .about-desc{
+        width: 100%;
+        margin-bottom: 76px;
+        padding: 0 30px;
+    }
+
+
+    /*  About me end*/
+
+    /*  Skills start*/
+
+    .skills-title{
+        margin-top: 83px;
+    }
+
+    .skills-text{
+        margin-bottom: 71px;
+    }
+    .skills-icons{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 99px;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    .skills-pic{
+        margin-bottom: 82px;
+        
+    }
+    /*  Skills end*/
+    /*  Portfolio start*/
+
+    .portfolio-title{
+        margin-top: 81px;
+        margin-bottom: 65px;
+    }
+    .portfolio-pic{
+        margin-bottom: 33px;
+    }
+    .portfolio-link{
+        margin-top: 0;
+        margin-bottom: 78px;
+    }
+
+    /*  Portfolio end*/
+
+    /* Contacts  start */
+    .container-contacts{
+        width:100%;
+    }
+
+    .contacts-button{
+        width:88%;
+        border: 0;
+        
+    }
+    .contacts-social{
+        padding: 0 30px;
+    }
+
+    /* Contacts  end */
+}
